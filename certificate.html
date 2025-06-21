@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>certificates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body > <!-- Default to dark mode -->
+    <header>
+        <h1 id="animated-name">Certificates</h1>
+        <p>Here are some of my certificate, compition where I was participate and some educational exam.</p>
+        <nav>
+            <ul>
+                <li><a href="#educational">educational</a></li>
+                <li> | </li>
+                <li><a href="#cultural">cultural</a></li>
+                <!-- <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <button id="dark-mode-toggle">🌙 Dark Mode</button>
+
+    
+    <section id="image-gallery">
+        <h2>Image Collection</h2>
+        <div class="image-scroll">
+            <img src="./accet/img/c_cpp.jpg" alt="Image 1" onclick="openPopup(1)">
+            <img src="./accet/img/c1.jpg" alt="Image 2" onclick="openPopup(2)">
+            <img src="./accet/img/g1.jpg" alt="Image 3" onclick="openPopup(3)">
+            <img src="./accet/img/ncc1.jpg" alt="Image 4" onclick="openPopup(4)">
+            <img src="./accet/img/pp.jpg" alt="Image 5" onclick="openPopup(5)">
+            <img src="./accet/img/cet.jpg" alt="Image 6" onclick="openPopup(6)">
+            <img src="./accet/img/m1.jpg" alt="Image 7" onclick="openPopup(7)">
+        </div>
+    </section>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closePopup()">close</button>
+            <div class="popup-images"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Aashita Jambhulkar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
